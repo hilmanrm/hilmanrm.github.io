@@ -1,0 +1,104 @@
+baseurl: https://hilmanrm.github.io/
+builddrafts: no
+canonifyurls: no
+languageCode: en-US
+contentdir: content
+layoutdir: layouts
+publishdir: public
+author: Rafiazka M. Hilman
+title: Rafiazka M. Hilman
+theme: hugo-goa
+#disqusShortname: https-shenoybr-github-io-hugo-goa-demo
+#googleAnalytics: XYZ
+enableRobotsTXT: yes
+params:
+  author: Rafiazka M. Hilman
+  #authorimage: "img/headshot.jpg"
+  dateformat: July 5, 2022
+  description: Data Analytics. Urban Space. Social Dynamics
+    #<br/> "What is F times 5? It's Fleventy-five."
+  #extra:
+    #copyright: © 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
+    #displayrssicon: yes
+    #highlightjs: yes
+    #poweredby: yes
+    #socialmarkup: yes
+    #toc: yes
+  #intro: Startup Guru Extraordinaire
+  #meta:
+    #description: Simple minimalist theme
+    #keywords: minimalist,blog,goa,hugo,developer
+  social:
+    #bitbucket: <username>
+    email: Hilman_Rafiazka@phd.ceu.edu.
+    #facebook: <username>
+    #fivehundredpx: <username>
+    #flickr: <username>
+    #foursquare: <username>
+    github: hilmanrm
+    #gitlab: <username>
+    #goodreads: <username>
+    #google: <username>
+    #googlescholar: <account_id>
+    #hackernews: <username>
+    #instagram: <username>
+    #keybase: <username>
+    #kickstarter: <username>
+    #lastfm: <username>
+    #linkedin: <username>
+    #patreon: <username>
+    #pgp: <key_fingerprint>
+    #pintrest: <username>
+    #reddit: <username>
+    #skype: <username>
+    #snapchat: <username>
+    #soundcloud: <username>
+    #stackoverflow: <username>
+    #steam: <username>
+    #strava: <username>
+    #telegram: <username>
+    #tumblr: <username>
+    #twitch: <username>
+    twitter: hilman_rm
+    #whatsapp: <username>
+    #xing: <username>
+    #youtube: <channelid>
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 100
+    - identifier: education
+      name: education
+      url: /education/
+      weight: 200
+    - identifier: research interests
+      name: research interests
+      url: /research interests/
+      weight: 300
+    - identifier: publications
+      name: publications
+      url: /publications/
+      weight: 400
+    - identifier: teaching
+      name: teaching
+      url: /teaching/
+      weight: 500
+    - identifier: talks
+      name: talks
+      url: /talks/
+      weight: 600
+    - identifier: scientific network
+      name: scientific network
+      url: /scientific network/
+      weight: 700
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 800
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes   
